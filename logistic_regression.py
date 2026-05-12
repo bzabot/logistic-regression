@@ -3,7 +3,17 @@ import numpy as np
 
 def sigmoid(y):
     """Return the sigmoid of the input value or array."""
-    return 1 / (1 + np.exp(-1 * y))
+    y = np.asarray(y)
+    result = np.empty_like(y, dtype=float)
+
+    positive_mask = y >= 0
+    result[positive_mask] = 1 / (1 + np.exp(-y[positive_mask]))
+
+    negative_mask = ~positive_mask
+    exp_y = np.exp(y[negative_mask])
+    result[negative_mask] = exp_y / (1 + exp_y)
+
+    return result
 
 
 def binary_crossentropy(A, y):

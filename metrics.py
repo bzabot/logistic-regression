@@ -8,17 +8,18 @@ def safe_division(numerator, denominator):
 
 
 def get_counts(matrix):
-    tp, fp = matrix[0]
-    fn, tn = matrix[1]
+    tn, fp = matrix[0]
+    fn, tp = matrix[1]
     return tp, fp, fn, tn
 
 
-def confusion_matrix(y_pred, y_true):
+def confusion_matrix(y_true, y_pred):
     """
-    Returns the confusion matrix given the true and predicted values
-      1   0
-    1 TP  FP
-    0 FN  TN
+    Return the binary confusion matrix in the conventional sklearn layout.
+
+           Pred 0  Pred 1
+    True 0   TN      FP
+    True 1   FN      TP
     """
     tp = 0
     fp = 0
@@ -26,16 +27,16 @@ def confusion_matrix(y_pred, y_true):
     tn = 0
 
     for i in range(len(y_true)):
-        if y_pred[i] == 1 and y_true[i] == 1:
+        if y_true[i] == 1 and y_pred[i] == 1:
             tp += 1
-        elif y_pred[i] == 1 and y_true[i] == 0:
+        elif y_true[i] == 0 and y_pred[i] == 1:
             fp += 1
-        elif y_pred[i] == 0 and y_true[i] == 1:
+        elif y_true[i] == 1 and y_pred[i] == 0:
             fn += 1
-        elif y_pred[i] == 0 and y_true[i] == 0:
+        elif y_true[i] == 0 and y_pred[i] == 0:
             tn += 1
 
-    return np.array([[tp, fp], [fn, tn]])
+    return np.array([[tn, fp], [fn, tp]])
 
 
 def accuracy(matrix):
@@ -75,7 +76,22 @@ def balanced_accuracy(matrix):
     """
     balanced accuracy: (recall + specificity) / 2
     """
-    _, fp, _, tn = get_counts(matrix)
     recall_value = recall(matrix)
-    specificity = safe_division(tn, tn + fp)
-    return (recall_value + specificity) / 2
+    specificity_value = specificity(matrix)
+    return (recall_value + specificity_value) / 2
+
+
+def specificity(matrix):
+    """
+    specificity / true negative rate: TN / (TN+FP)
+    """
+    _, fp, _, tn = get_counts(matrix)
+    return safe_division(tn, tn + fp)
+
+
+def false_positive_rate(matrix):
+    """
+    false positive rate: FP / (FP+TN)
+    """
+    _, fp, _, tn = get_counts(matrix)
+    return safe_division(fp, fp + tn)
