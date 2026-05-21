@@ -1,0 +1,1921 @@
+dataset,seed,model,stage,error_type,error_message,traceback
+df18,2,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,2,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,4,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,5,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,6,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,7,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,8,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,9,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,10,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,12,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,13,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,14,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,16,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,17,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,18,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,default,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,gaar,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,gaar_focal_loss,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,gaar_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,gaar_focal_loss_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,gaar_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,gaar_focal_loss_cagd,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,gaar_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"
+df18,19,gaar_focal_loss_cagd_f1_threshold,fit,FloatingPointError,Model produced non-finite prediction probabilities,"Traceback (most recent call last):
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 512, in run_experiment
+    result = run_single_model(
+             ^^^^^^^^^^^^^^^^^
+  File ""/home/bruno-zabot/Studies/MachineLearning/assignment/src/analyze_addon_performance.py"", line 417, in run_single_model
+    raise FloatingPointError(""Model produced non-finite prediction probabilities"")
+FloatingPointError: Model produced non-finite prediction probabilities
+"

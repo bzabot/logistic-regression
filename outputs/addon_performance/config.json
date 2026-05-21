@@ -1,0 +1,28 @@
+{
+  "analysis_config": {
+    "cagd_alpha": 5.0,
+    "cagd_approximation": "diagonal",
+    "cagd_epsilon": 0.01,
+    "focal_alpha": 0.5,
+    "focal_gamma": 2.0,
+    "gaar_c_minority": 25.0,
+    "gaar_lambda": 0.01,
+    "iterations": 1000,
+    "learning_rate": 0.01
+  },
+  "cagd_alpha": 5.0,
+  "cagd_approximation": "diagonal",
+  "cagd_epsilon": 0.01,
+  "datasets": "all",
+  "focal_alpha": 0.5,
+  "focal_gamma": 2.0,
+  "gaar_c_minority": 25.0,
+  "gaar_lambda": 0.01,
+  "iterations": 1000,
+  "learning_rate": 0.01,
+  "models": "all",
+  "output_dir": "outputs/addon_performance",
+  "resume": true,
+  "seeds": "20",
+  "timeout_seconds": 1800
+}
