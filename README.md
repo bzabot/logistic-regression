@@ -12,9 +12,6 @@ The applied motivation is a fintech Research Intelligence setting: a RAG/Weaviat
 - `Presentation_BrunoZabot.pdf`  
   Final presentation used to defend the project.
 
-- `presentation_roteiro_slides.md`  
-  Detailed slide-by-slide speaking script used to prepare the presentation.
-
 ## Main Source Files
 
 - `src/logistic_regression.py`  
