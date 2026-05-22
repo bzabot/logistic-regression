@@ -103,8 +103,3 @@ The main findings are:
 - `WeightedErrors` alone did not clearly improve the default model in this setup.
 
 The main trade-off is between recovering more minority-class examples and preserving majority-class performance.
-
-## Notes
-
-The raw dataset directory `class_imbalance/` is ignored by Git because it is data-heavy. The notebook expects the datasets to be available locally when recomputing the full experiment.
-
