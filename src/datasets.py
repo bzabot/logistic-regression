@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
 
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "class_imbalance"
@@ -15,13 +14,10 @@ def _scale_features(df, target_column):
     features = df.drop(columns=[target_column])
     target = df[target_column]
 
-    scaled_features = pd.DataFrame(
-        StandardScaler().fit_transform(features),
-        columns=features.columns,
-        index=features.index,
-    )
-    scaled_features[target_column] = target
-    return scaled_features
+    means = features.mean()
+    standard_deviations = features.std(ddof=0).replace(0, 1)
+    scaled_features = (features - means) / standard_deviations
+    return pd.concat([scaled_features, target], axis=1)
 
 
 def _encode_categoricals(df, categorical_columns):
@@ -149,17 +145,13 @@ def df17():
 
 
 def df18():
-    df = _load_dataset("dataset_984_analcatdata_draft.csv", "binaryClass", scale=True)
-    return df.dropna().reset_index(drop=True)
-
-
-def df19():
-    return _load_dataset("dataset_1064_ar6.csv", "defects", scale=True)
-
-
-def df20():
+    # Replacement for the original df18, which was numerically unstable.
     return _load_dataset(
         "dataset_949_arsenic-female-bladder.csv",
         "binaryClass",
         scale=True,
     )
+
+
+def df19():
+    return _load_dataset("dataset_1064_ar6.csv", "defects", scale=True)

@@ -3,7 +3,6 @@ from __future__ import annotations
 import csv
 import json
 import math
-import pickle
 import signal
 import time
 import traceback
@@ -15,7 +14,7 @@ import numpy as np
 import pandas as pd
 
 from datasets import df1, df10, df11, df12, df13, df14, df15, df16, df17, df18, df19
-from datasets import df2, df20, df3, df4, df5, df6, df7, df8, df9
+from datasets import df2, df3, df4, df5, df6, df7, df8, df9
 from logistic_regression import CAGD, F1Threshold, Gaar, LogisticRegression
 from logistic_regression import WeightedErrors
 from metrics import BinaryClassImbalanceMetrics, safe_division
@@ -41,10 +40,9 @@ DATASET_LOADERS: dict[str, Callable[[], pd.DataFrame]] = {
     "df17": df17,
     "df18": df18,
     "df19": df19,
-    "df20": df20,
 }
 
-DEFAULT_SEEDS = tuple(range(10))
+DEFAULT_SEEDS = tuple(range(20))
 DEFAULT_OUTPUT_DIR = Path("outputs") / "addon_performance"
 RESULT_COLUMNS = [
     "dataset",
@@ -94,7 +92,6 @@ ERROR_COLUMNS = [
     "error_message",
     "traceback",
 ]
-PAIR_KEY_COLUMNS = ["dataset", "seed"]
 PRIMARY_METRICS = [
     "balanced_accuracy",
     "minority_f1",
@@ -531,8 +528,8 @@ def reset_output_files(output_dir: Path) -> None:
         "errors.csv",
         "config.json",
         "model_summary.csv",
-        "paired_tests_vs_default.csv",
         "dataset_summary.csv",
+        "paired_tests_vs_default.csv",
         "analysis_artifact.pkl",
         "analysis_report.md",
     ]
@@ -596,24 +593,10 @@ def create_analysis_outputs(
         return
 
     model_summary = summarize_models(results)
-    paired_tests = paired_statistical_tests(results)
     dataset_summary = summarize_datasets(results)
 
     model_summary.to_csv(output_dir / "model_summary.csv", index=False)
-    paired_tests.to_csv(output_dir / "paired_tests_vs_default.csv", index=False)
     dataset_summary.to_csv(output_dir / "dataset_summary.csv", index=False)
-
-    artifact = {
-        "config": config,
-        "results": results,
-        "model_summary": model_summary,
-        "paired_tests_vs_default": paired_tests,
-        "dataset_summary": dataset_summary,
-    }
-    with (output_dir / "analysis_artifact.pkl").open("wb") as file:
-        pickle.dump(artifact, file)
-
-    write_markdown_report(output_dir, results, model_summary, paired_tests)
 
 
 def summarize_models(results: pd.DataFrame) -> pd.DataFrame:
@@ -644,214 +627,6 @@ def summarize_datasets(results: pd.DataFrame) -> pd.DataFrame:
         rows.append(row)
 
     return pd.DataFrame(rows).sort_values("dataset")
-
-
-def paired_statistical_tests(results: pd.DataFrame) -> pd.DataFrame:
-    rows = []
-    default = results[results["model"] == "default"]
-    if default.empty:
-        return pd.DataFrame()
-
-    models = sorted(model for model in results["model"].unique() if model != "default")
-
-    for model_name in models:
-        model_results = results[results["model"] == model_name]
-        paired = model_results.merge(
-            default,
-            on=PAIR_KEY_COLUMNS,
-            suffixes=("_model", "_default"),
-        )
-        for metric in PRIMARY_METRICS:
-            model_values = paired[f"{metric}_model"].to_numpy(dtype=float)
-            default_values = paired[f"{metric}_default"].to_numpy(dtype=float)
-            valid = np.isfinite(model_values) & np.isfinite(default_values)
-            differences = model_values[valid] - default_values[valid]
-            if len(differences) == 0:
-                continue
-
-            ci_low, ci_high = bootstrap_mean_ci(differences)
-            wins = int(np.sum(differences > 1e-12))
-            losses = int(np.sum(differences < -1e-12))
-            ties = int(len(differences) - wins - losses)
-            rows.append(
-                {
-                    "model": model_name,
-                    "metric": metric,
-                    "n_pairs": len(differences),
-                    "default_mean": float(np.mean(default_values[valid])),
-                    "model_mean": float(np.mean(model_values[valid])),
-                    "mean_difference": float(np.mean(differences)),
-                    "median_difference": float(np.median(differences)),
-                    "bootstrap_ci_low": ci_low,
-                    "bootstrap_ci_high": ci_high,
-                    "wins": wins,
-                    "ties": ties,
-                    "losses": losses,
-                    "win_rate": safe_division(wins, wins + losses),
-                    "sign_test_p_value": sign_test_p_value(wins, losses),
-                    "permutation_p_value": paired_permutation_p_value(differences),
-                }
-            )
-
-    tests = pd.DataFrame(rows)
-    if tests.empty:
-        return tests
-
-    tests["holm_p_value"] = np.nan
-    for metric, metric_rows in tests.groupby("metric"):
-        corrected = holm_bonferroni(metric_rows["permutation_p_value"].to_numpy())
-        tests.loc[metric_rows.index, "holm_p_value"] = corrected
-
-    return tests.sort_values(["metric", "holm_p_value", "model"])
-
-
-def bootstrap_mean_ci(
-    values: np.ndarray,
-    confidence: float = 0.95,
-    samples: int = 5000,
-    seed: int = 42,
-) -> tuple[float, float]:
-    values = np.asarray(values, dtype=float)
-    if len(values) == 1:
-        return float(values[0]), float(values[0])
-
-    rng = np.random.default_rng(seed)
-    indexes = rng.integers(0, len(values), size=(samples, len(values)))
-    means = values[indexes].mean(axis=1)
-    alpha = (1 - confidence) / 2
-    return (
-        float(np.quantile(means, alpha)),
-        float(np.quantile(means, 1 - alpha)),
-    )
-
-
-def sign_test_p_value(wins: int, losses: int) -> float:
-    trials = wins + losses
-    if trials == 0:
-        return 1.0
-
-    smaller_tail = min(wins, losses)
-    tail_probability = sum(math.comb(trials, k) for k in range(smaller_tail + 1))
-    return min(1.0, 2 * tail_probability / (2**trials))
-
-
-def paired_permutation_p_value(
-    differences: np.ndarray,
-    samples: int = 10000,
-    seed: int = 42,
-) -> float:
-    differences = np.asarray(differences, dtype=float)
-    differences = differences[np.abs(differences) > 1e-12]
-    if len(differences) == 0:
-        return 1.0
-
-    observed = abs(float(np.mean(differences)))
-    rng = np.random.default_rng(seed)
-    signs = rng.choice((-1, 1), size=(samples, len(differences)))
-    permuted = np.abs((signs * differences).mean(axis=1))
-    return float((np.sum(permuted >= observed) + 1) / (samples + 1))
-
-
-def holm_bonferroni(p_values: np.ndarray) -> np.ndarray:
-    p_values = np.asarray(p_values, dtype=float)
-    order = np.argsort(p_values)
-    adjusted = np.empty_like(p_values)
-    running_max = 0.0
-    total = len(p_values)
-
-    for rank, original_index in enumerate(order):
-        corrected = (total - rank) * p_values[original_index]
-        running_max = max(running_max, corrected)
-        adjusted[original_index] = min(1.0, running_max)
-
-    return adjusted
-
-
-def write_markdown_report(
-    output_dir: Path,
-    results: pd.DataFrame,
-    model_summary: pd.DataFrame,
-    paired_tests: pd.DataFrame,
-) -> None:
-    completed_runs = len(results)
-    dataset_count = results["dataset"].nunique()
-    seed_count = results["seed"].nunique()
-    model_count = results["model"].nunique()
-    top_balanced = model_summary.head(10)[
-        ["model", "balanced_accuracy_mean", "minority_f1_mean", "minority_recall_mean"]
-    ]
-    if paired_tests.empty:
-        significant = pd.DataFrame()
-    else:
-        significant = paired_tests[
-            (paired_tests["metric"] == "balanced_accuracy")
-            & (paired_tests["holm_p_value"] <= 0.05)
-        ].sort_values("mean_difference", ascending=False)
-
-    report = [
-        "# Add-on results",
-        "",
-        f"- Completed runs: {completed_runs}",
-        f"- Datasets: {dataset_count}",
-        f"- Seeds: {seed_count}",
-        f"- Models: {model_count}",
-        "",
-        "## Top models by mean balanced accuracy",
-        "",
-        dataframe_to_markdown(top_balanced),
-        "",
-        "## Balanced accuracy compared with the default model",
-        "",
-    ]
-
-    if significant.empty:
-        report.append(
-            "None of the add-ons reached Holm-corrected p <= 0.05 for balanced accuracy."
-        )
-    else:
-        report.append(
-            dataframe_to_markdown(
-                significant[
-                    [
-                        "model",
-                        "n_pairs",
-                        "mean_difference",
-                        "bootstrap_ci_low",
-                        "bootstrap_ci_high",
-                        "wins",
-                        "ties",
-                        "losses",
-                        "permutation_p_value",
-                        "holm_p_value",
-                    ]
-                ]
-            )
-        )
-
-    (output_dir / "analysis_report.md").write_text("\n".join(report), encoding="utf-8")
-
-
-def dataframe_to_markdown(frame: pd.DataFrame) -> str:
-    if frame.empty:
-        return "_No rows._"
-
-    display_frame = frame.copy()
-    for column in display_frame.columns:
-        if pd.api.types.is_float_dtype(display_frame[column]):
-            display_frame[column] = display_frame[column].map(
-                lambda value: "" if pd.isna(value) else f"{value:.6g}"
-            )
-        else:
-            display_frame[column] = display_frame[column].map(str)
-
-    headers = list(display_frame.columns)
-    rows = display_frame.astype(str).values.tolist()
-    table = [
-        "| " + " | ".join(headers) + " |",
-        "| " + " | ".join("---" for _ in headers) + " |",
-    ]
-    table.extend("| " + " | ".join(row) + " |" for row in rows)
-    return "\n".join(table)
 
 
 def default_config() -> AnalysisConfig:

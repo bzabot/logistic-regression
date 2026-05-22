@@ -9,5 +9,5 @@ dependencies = [
     "matplotlib>=3.10.8",
     "pandas>=3.0.2",
     "ruff>=0.15.10",
-    "scikit-learn>=1.8.0",
+    "scikit-posthocs>=0.13.0",
 ]

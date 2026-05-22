@@ -1,264 +1,110 @@
-# Logistic Regression Implementation
+# Machine Learning I - Practical Assignment
 
-This project contains a simple NumPy implementation of logistic regression in [logistic_regression.py](/home/bruno-zabot/Studies/MachineLearning/assignment/logistic_regression.py).
+This repository contains the practical assignment for Machine Learning I. The project studies how a from-scratch NumPy implementation of binary Logistic Regression behaves on imbalanced classification datasets, and compares the default model with several add-ons designed to improve minority-class detection.
 
-The file defines four functions:
+The applied motivation is a fintech Research Intelligence setting: a RAG/Weaviate system can retrieve many candidate documents for a Wealth Manager query, but only a small number are truly relevant. This is analogous to binary class imbalance, where the positive/minority class is rare but important.
 
-1. `sigmoid`
-2. `prediction`
-3. `binary_crossentropy`
-4. `gradient_descent`
+## Main Deliverables
 
-## Overall Flow
+- `src/analyze_addon_performance_results.ipynb`  
+  Final notebook with the analysis, plots, explanations, and conclusions.
 
-The implementation follows the standard binary logistic regression pipeline:
+- `Presentation_BrunoZabot.pdf`  
+  Final presentation used to defend the project.
 
-1. Start with weights and bias initialized to zero.
-2. Compute the linear combination `Z = Xw + b`.
-3. Pass `Z` through the sigmoid function to convert it into probabilities.
-4. Compare predictions with the real labels.
-5. Compute gradients for the weights and bias.
-6. Update the parameters repeatedly with gradient descent.
+- `presentation_roteiro_slides.md`  
+  Detailed slide-by-slide speaking script used to prepare the presentation.
 
-## Function Explanations
+## Main Source Files
 
-### `sigmoid(y)`
+- `src/logistic_regression.py`  
+  From-scratch Logistic Regression implementation using NumPy. It includes the default model and the add-ons:
+  - `WeightedErrors`
+  - `Gaar`
+  - `CAGD`
+  - `F1Threshold`
 
-```python
-def sigmoid(y):
-    return 1 / (1 + np.exp(-1 * y))
+- `src/analyze_addon_performance.py`  
+  Experiment runner. It trains all model variants across datasets and seeds, then writes result CSVs.
+
+- `src/datasets.py`  
+  Dataset loading and preprocessing utilities. It normalizes the target convention so that:
+  - `target = 0` is the majority class
+  - `target = 1` is the minority class
+
+- `src/metrics.py`  
+  Metrics for imbalanced binary classification, including balanced accuracy, minority recall, minority F1, confusion matrix components, MCC, ROC AUC, and average precision.
+
+## Results and Outputs
+
+The final analysis reads the stored experiment results from:
+
+- `outputs/addon_performance/raw_results.csv`
+- `outputs/addon_performance/model_summary.csv`
+- `outputs/addon_performance/dataset_summary.csv`
+- `outputs/addon_performance/config.json`
+
+The full experiment contains:
+
+- 19 datasets
+- 20 random seeds
+- 16 model variants
+- 6080 successful training runs
+
+By default, the notebook does not recompute all runs. It reads the saved CSV files above.
+
+## How to Run
+
+Install dependencies:
+
+```bash
+uv sync
 ```
 
-Purpose:
-Converts any real-valued input into a value between `0` and `1`.
+Register the Jupyter kernel:
 
-Why it is needed:
-Logistic regression predicts probabilities. The sigmoid function maps the linear output of the model into a probability-like value.
+```bash
+uv run python -m ipykernel install --user --name assignment --display-name "assignment"
+```
 
-Formula:
+Open:
 
 ```text
-sigmoid(y) = 1 / (1 + e^(-y))
+src/analyze_addon_performance_results.ipynb
 ```
 
-Input:
-- `y`: a number, vector, or NumPy array
-
-Output:
-- A value or array with all elements between `0` and `1`
-
-Interpretation:
-- Values close to `1` mean the model is confident in class `1`
-- Values close to `0` mean the model is confident in class `0`
-
-Example:
+To reproduce the plots and tables from the stored results, keep:
 
 ```python
-sigmoid(0)      # 0.5
-sigmoid(2)      # about 0.88
-sigmoid(-2)     # about 0.12
+RUN_FULL_EXPERIMENT = False
 ```
 
-### `prediction(att, a, b)`
+To recompute the full experiment from scratch, set:
 
 ```python
-def prediction(att, a, b):
-    return sigmoid(np.dot(att, a) + b)
+RUN_FULL_EXPERIMENT = True
 ```
 
-Purpose:
-Computes the predicted probability for one sample or a set of samples.
+or run:
 
-How it works:
-- `np.dot(att, a)` computes the weighted sum of the input features
-- `b` adds the bias term
-- `sigmoid(...)` transforms the result into a probability
-
-Input:
-- `att`: input attributes or feature vector/matrix
-- `a`: weight vector
-- `b`: bias term
-
-Output:
-- Predicted probability or probabilities
-
-Interpretation:
-This function represents the logistic regression model itself:
-
-```text
-P(y=1|x) = sigmoid(x · w + b)
+```bash
+uv run python src/analyze_addon_performance.py
 ```
 
-Notes:
-- In your current implementation, this function is separate from training and can be used after learning `weights` and `bias`
-- It is useful for making predictions on new data
+## Project Summary
 
-### `binary_crossentropy(A, y)`
+The default Logistic Regression model uses a symmetric loss and a fixed threshold of 0.5. In highly imbalanced datasets, this tends to favor the majority class. The project evaluates whether modifications to the training process or the final decision threshold can improve minority-class detection.
 
-```python
-def binary_crossentropy(A, y):
-    A = np.clip(A, 1e-15, 1 - 1e-15)
-    loss = -np.mean(y * np.log(A) + (1 - y) * np.log(1 - A))
-    return loss
-```
+The main findings are:
 
-Purpose:
-Calculates the binary cross-entropy loss, which measures how far the predicted probabilities are from the true labels.
+- `cagd_f1_threshold` achieved the best mean balanced accuracy.
+- `gaar_cagd` was the most consistent model by average rank.
+- `F1Threshold` improved minority recall and minority F1, but can increase false positives.
+- `WeightedErrors` alone did not clearly improve the default model in this setup.
 
-Why it is needed:
-During logistic regression, binary cross-entropy is the standard loss function for binary classification problems.
+The main trade-off is between recovering more minority-class examples and preserving majority-class performance.
 
-How it works:
-- `A` contains predicted probabilities
-- `y` contains true labels (`0` or `1`)
-- `np.clip(...)` avoids taking `log(0)`, which would cause numerical errors
-- The formula averages the error across all examples
+## Notes
 
-Formula:
+The raw dataset directory `class_imbalance/` is ignored by Git because it is data-heavy. The notebook expects the datasets to be available locally when recomputing the full experiment.
 
-```text
-Loss = -mean(y log(A) + (1 - y) log(1 - A))
-```
-
-Input:
-- `A`: predicted probabilities
-- `y`: true binary labels
-
-Output:
-- A single scalar loss value
-
-Interpretation:
-- Lower loss means better predictions
-- Loss is `0` only for perfect predictions
-
-Notes:
-- This function is defined correctly, but it is not currently used inside `gradient_descent`
-- It could be added there to monitor training progress every few iterations
-
-### `gradient_descent(X, y)`
-
-```python
-def gradient_descent(X, y):
-    weights = np.zeros(X.shape[1])
-    bias = 0
-
-    learning_rate = 0.01
-    iterations = 1000
-
-    for i in range(iterations):
-        Z = np.dot(X, weights) + bias
-        A = sigmoid(Z)
-        error = A - y
-
-        dw = 1 / len(y) * np.dot(X.T, error)
-        db = 1 / len(y) * np.sum(error)
-
-        weights = weights - (learning_rate * dw)
-        bias = bias - (learning_rate * db)
-
-    return weights, bias
-```
-
-Purpose:
-Trains the logistic regression model by learning the best weights and bias from the data.
-
-Input:
-- `X`: feature matrix with shape `(number_of_samples, number_of_features)`
-- `y`: target vector with binary labels `0` and `1`
-
-Output:
-- `weights`: learned weight vector
-- `bias`: learned bias scalar
-
-Step-by-step explanation:
-
-1. `weights = np.zeros(X.shape[1])`
-   Initializes one weight for each feature.
-
-2. `bias = 0`
-   Initializes the bias term.
-
-3. `learning_rate = 0.01`
-   Controls the size of each update step.
-
-4. `iterations = 1000`
-   Sets how many times the algorithm updates the parameters.
-
-5. `Z = np.dot(X, weights) + bias`
-   Computes the linear output for every sample.
-
-6. `A = sigmoid(Z)`
-   Converts linear outputs into predicted probabilities.
-
-7. `error = A - y`
-   Measures the difference between predicted probabilities and true labels.
-
-8. `dw = 1 / len(y) * np.dot(X.T, error)`
-   Computes the gradient of the loss with respect to the weights.
-
-9. `db = 1 / len(y) * np.sum(error)`
-   Computes the gradient of the loss with respect to the bias.
-
-10. `weights = weights - (learning_rate * dw)`
-    Updates the weights in the direction that reduces the loss.
-
-11. `bias = bias - (learning_rate * db)`
-    Updates the bias in the same way.
-
-12. `return weights, bias`
-    Returns the trained parameters.
-
-Why this works:
-Gradient descent iteratively adjusts the model parameters so that predicted probabilities become closer to the true labels.
-
-## Relationship Between the Functions
-
-- `sigmoid` is the activation function used by logistic regression
-- `prediction` uses `sigmoid` to make model predictions
-- `binary_crossentropy` evaluates how good those predictions are
-- `gradient_descent` trains the model by updating the weights and bias
-
-In the current code:
-- `gradient_descent` uses `sigmoid`
-- `prediction` and `binary_crossentropy` are helper functions that can be used separately
-
-## Example Usage
-
-An example exists in [test_example.py](/home/bruno-zabot/Studies/MachineLearning/assignment/test_example.py):
-
-```python
-weight, bias = gradient_descent(X, y)
-print(weight, bias)
-```
-
-After training, predictions for new data can be made with:
-
-```python
-probabilities = prediction(X, weight, bias)
-```
-
-If needed, probabilities can be converted into class labels:
-
-```python
-labels = (probabilities >= 0.5).astype(int)
-```
-
-## Current Limitations
-
-This implementation is a good educational version, but it has some limitations:
-
-- It does not track or print the loss during training
-- It does not include a separate `fit` and `predict` interface
-- It assumes the target values are already binary (`0` or `1`)
-- It uses fixed hyperparameters (`learning_rate` and `iterations`) inside the function
-
-## Summary
-
-Your implementation covers the essential parts of binary logistic regression:
-
-- `sigmoid` converts scores into probabilities
-- `prediction` computes model outputs
-- `binary_crossentropy` measures prediction error
-- `gradient_descent` learns the model parameters
-
-Together, these functions form a complete basic logistic regression workflow using NumPy.

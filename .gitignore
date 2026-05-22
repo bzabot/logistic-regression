@@ -11,3 +11,24 @@ wheels/
 
 # Datasets
 class_imbalance/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Local agent/codex artifacts
+.agents/
+.codex
+
+# Generated/intermediate artifacts
+outputs/notebook_runs/
+outputs/addon_performance_legacy/
+src/outputs/
+*.pkl
+
+# Local copies
+* copy.*
