@@ -2,8 +2,6 @@
 
 This repository contains the practical assignment for Machine Learning I. The project studies how a from-scratch NumPy implementation of binary Logistic Regression behaves on imbalanced classification datasets, and compares the default model with several add-ons designed to improve minority-class detection.
 
-The applied motivation is a fintech Research Intelligence setting: a RAG/Weaviate system can retrieve many candidate documents for a Wealth Manager query, but only a small number are truly relevant. This is analogous to binary class imbalance, where the positive/minority class is rare but important.
-
 ## Main Deliverables
 
 - `src/analyze_addon_performance_results.ipynb`  
